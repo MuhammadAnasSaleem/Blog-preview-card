@@ -7,7 +7,44 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app" class="text-white bg-slate-800">heloo blog</div>
+    <div
+      id="main"
+      class="bg-[#F4D04E] h-screen flex justify-center items-center"
+    >
+      <div
+        id="hero"
+        class="bg-white w-[307px] h-[501px] md:w-[384px] md:h-[522px] shadow-[8px_8px_0px] shadow-gray-950 rounded-2xl p-4 flex flex-col gap-5"
+      >
+        <img
+          src="assets/images/illustration-article.svg"
+          alt="illustration-article"
+          class=""
+        />
+        <div class="flex flex-col gap-3 md:gap-2">
+          <button
+            class="bg-[#F4D04E] py-1 px-2 rounded-sm font-bold w-[80px] h-[30px]"
+          >
+            Learning
+          </button>
+          <p class="text-sm font-medium">Published 21 DEC 2023</p>
+        </div>
+        <h1 class="text-[22px] font-bold hover:text-[#F4D04E]">
+          HTML & CSS Foundations
+        </h1>
+        <p class="text-gray-500 text-sm md:text-base">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="flex gap-2.5 items-center">
+          <img
+            src="assets/images/image-avatar.webp"
+            alt="image-avatar"
+            class="w-8 h-8"
+          />
+          <h2 class="font-bold">Greg Hooper</h2>
+        </div>
+      </div>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
